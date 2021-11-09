@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Unine - Security 2021</title>
+
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+<!-- Default font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" href="kiener.css">
+
+</head>
+<body>
+    <div class="container-fluid">
+        <h1 class="main-title">Welcome to Kieners secure Webpage</h1>
+
+        <div class="main-content">
+            <div>
+                <h3 class="main-content-title">How we completed this task</h3>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">We installed <a href="https://www.knot-dns.cz">Knot DNS</a></li>
+                <li class="list-group-item">We configured Knot DNS to serve our Zone <span class="font-italic">kiener.sec21.tech</span></li>
+                <li class="list-group-item">We added automatic DNS-Signing to our Knot DNS configuration</li>
+                <li class="list-group-item">We configured the Knot DNS server to push the DS record to the <span class="font-italic">sec21.tech</span> zone</li>
+                <li class="list-group-item">We installed the <a href="https://www.nginx.com">NGINX</a> Webserver on our Server</li>
+                <li class="list-group-item">We configured our NGINX Webserver to redirect all HTTP requests to HTTPS</li>
+                <li class="list-group-item">We generated SSL-Certificates using <a href="https://letsencrypt.org">Let's encrypt</a> and <a href="https://certbot.eff.org">Certbot</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

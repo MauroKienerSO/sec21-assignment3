@@ -1,0 +1,4 @@
+kiener.sec21.tech. 3600 IN SOA ns.kiener.sec21.tech. hostmaster.invalid. 2021102700 600 600 604800 60
+kiener.sec21.tech. 3600 IN NS ns.kiener.sec21.tech.
+ns.kiener.sec21.tech. 3600 IN A 192.42.43.42
+www 60 IN A 192.42.43.42

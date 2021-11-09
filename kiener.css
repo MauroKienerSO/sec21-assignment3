@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap');
+
+body {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(88,9,121,0.8855917366946778) 21%, rgba(0,212,255,1) 100%);
+}
+
+.container-fluid .main-title, .container-fluid .main-content {
+    margin: 50px 20px 50px 20px;    
+}
+.font-italic {
+    font-family: 'Raleway:ital', sans-serif;
+}
+.list-group-item {
+    color: white;
+    background-color: transparent;
+    border: 1px solid rgb(82 165 15 / 96%);
+}
+.list-group-item:hover {
+    background-color: black !important;
+    cursor: pointer;
+}
+.main-content-title {
+    padding: .5rem 1rem !important;
+}
+a {
+    color: yellow;
+    font-weight: bold;
+    font-style: 'italic';
+}
